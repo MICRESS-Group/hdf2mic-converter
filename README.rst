@@ -13,6 +13,7 @@ See printed help instructions.
 The script can either be called directly, or the package can be installed, see setup.py.
 
 Conversion currently supports:
+
 - TXT: phase and euler angles per grain for 2D and 3D structures
 - VTK: grainID (kornID) per cell (voxel), optional time
 
