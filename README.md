@@ -30,11 +30,11 @@ Additional packages:
 
 Generate a configuration template file 'myConfiguration.json':  
 
-python template ./myConfiguration.json
+python hdf2mic.py template ./myConfiguration.json
 
 Convert with:
 
-python convert ./myConfiguration.json
+python hdf2mic.py convert ./myConfiguration.json
 
 
 
