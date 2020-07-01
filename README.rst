@@ -1,5 +1,4 @@
-hdf2mic
--------
+# hdf2mic
 
 Convert DREAM3D HDF5 synthetic microstructure file
 to MICRESS input files TXT and ASCII VTK
@@ -16,4 +15,26 @@ Conversion currently supports:
 
 - TXT: phase and euler angles per grain for 2D and 3D structures
 - VTK: grainID (kornID) per cell (voxel), optional time
+
+
+## Installation
+
+hdf2mic requires Python 2.7
+
+Additional packages:
+
+* numpy
+* h5py
+
+## Execution
+
+Generate a configuration template file 'myConfiguration.json':  
+
+python template ./myConfiguration.json
+
+Convert with:
+
+python convert ./myConfiguration.json
+
+
 
