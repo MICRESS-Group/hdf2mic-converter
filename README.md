@@ -48,6 +48,8 @@ MarketPlace project (Grant ID H2020-NMBP-25-2017 760173).
 
 Copyright (c) 2019-2020, Access e.V.
 
+This code is published under the FreeBSD license:
+
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
